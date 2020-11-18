@@ -13,7 +13,6 @@ int main()
         ready = true;
     });
 
-    t1.join();
 
     while(!ready)
     {
@@ -21,6 +20,8 @@ int main()
     }
 
     cout << "ready " << ready << endl;
+
+    t1.join();
 
     return 0;
 }

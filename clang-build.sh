@@ -1,0 +1,12 @@
+clang++ -Wall -std=c++17 020\ Hello\ World.cpp -o 020
+clang++ -Wall -std=c++17 -pthread 030\ Basic\ Multithreading.cpp -o 030
+clang++ -Wall -std=c++17 -pthread  050\ Shared\ Data.cpp -o 050
+clang++ -Wall -std=c++17 -pthread 060\ Mutexes.cpp -o 060
+clang++ -Wall -std=c++17 -pthread 065\ Function\ Arguments.cpp -o 065
+clang++ -Wall -std=c++17 -pthread 070\ Lock\ Guards.cpp -o 070
+clang++ -Wall -std=c++17 -pthread 080\ Threads\ with\ Callable\ Objects.cpp -o 080
+clang++ -Wall -std=c++17 090\ Calculating\ Pi.cpp -o 090
+clang++ -Wall -std=c++17 100\ Promises\ and\ Futures.cpp -o 100
+clang++ -Wall -std=c++17 110\ Promises\ and\ Exceptions.cpp -o 110
+clang++ -Wall -std=c++17 120\ Packaged\ Tasks.cpp -o 120
+clang++ -Wall -std=c++17 130\ Waiting\ for\ Threads.cpp -o 130
