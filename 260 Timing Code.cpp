@@ -15,12 +15,14 @@ using namespace std;
 double calculate_pi(int terms, int start, int skip)
 {
     double sum = 0.0;
+    int factor = pow(-1, skip);
+    int sign = pow(-1, start);
 
     for (int i = start; i < terms; i += skip)
     {
-        int sign = pow(-1, i);
         double term = 1.0 / (i * 2 + 1);
         sum += sign * term;
+        sign *= factor;
     }
 
     return sum * 4;
