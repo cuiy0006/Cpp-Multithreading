@@ -1,4 +1,4 @@
-Code for C++ Multithreading video course.
+Code for C++ Multithreading video course
 
 blocking_queue.h additionally contains a blocking queue implementation.
 
