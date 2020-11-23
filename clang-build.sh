@@ -22,3 +22,4 @@ clang++ -Wall -std=c++17 230\ Launching\ Lots\ of\ Threads.cpp -o 230
 clang++ -Wall -std=c++17 240\ A\ Thread\ Pool.cpp -o 240
 clang++ -Wall -std=c++17 250\ Distributing\ Work\ Between\ Cores.cpp -o 250
 clang++ -Wall -std=c++17 260\ Timing\ Code.cpp -o 260
+clang++ -Wall -std=c++17 cal_pi.cpp -o cal_pi
